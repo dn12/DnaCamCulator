@@ -1,0 +1,28 @@
+-if class net.github.dn12.network.api.response.Pod
+-keepnames class net.github.dn12.network.api.response.Pod
+-if class net.github.dn12.network.api.response.Pod
+-keep class net.github.dn12.network.api.response.PodJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class net.github.dn12.network.api.response.Queryresult
+-keepnames class net.github.dn12.network.api.response.Queryresult
+-if class net.github.dn12.network.api.response.Queryresult
+-keep class net.github.dn12.network.api.response.QueryresultJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class net.github.dn12.network.api.response.Subpod
+-keepnames class net.github.dn12.network.api.response.Subpod
+-if class net.github.dn12.network.api.response.Subpod
+-keep class net.github.dn12.network.api.response.SubpodJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class net.github.dn12.network.api.response.SymjaResponse
+-keepnames class net.github.dn12.network.api.response.SymjaResponse
+-if class net.github.dn12.network.api.response.SymjaResponse
+-keep class net.github.dn12.network.api.response.SymjaResponseJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
